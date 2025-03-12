@@ -12,7 +12,7 @@ while guessCounter < chance:
     myGuess = int(input(" enter your number :"))
 
     if myGuess == numberToGuess:
-        print (f"the numberis {numberToGuess} : and you found it right")
+        print (f"the number is {numberToGuess} : you win ! and you found it right")
 
         break
     elif guessCounter >=chance and myGuess != numberToGuess:
